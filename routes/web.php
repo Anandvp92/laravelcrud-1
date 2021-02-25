@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/welcome', function () {
+Route::get('/laravel', function () {
     return view('welcome');
 });
 
 Route::resource('contacts', 'ContactController');
 //Route::apiResource('contacts', 'ContactController');
+Route::apiResource('contacts', 'ContactController');
