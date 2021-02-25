@@ -17,4 +17,3 @@ Route::get('/laravel', function () {
 
 Route::resource('contacts', 'ContactController');
 //Route::apiResource('contacts', 'ContactController');
-Route::apiResource('contacts', 'ContactController');
